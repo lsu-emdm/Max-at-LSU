@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 36.0,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 53.0, 39.0, 430.0, 47.0 ],
+					"text" : "Homework 1 - Basics"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1394.0, 1466.0, 150.0, 20.0 ]
+					"patching_rect" : [ 1395.0, 1559.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -56,7 +68,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 907.75, 1330.0, 24.0, 24.0 ]
+					"patching_rect" : [ 908.75, 1423.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -68,7 +80,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 964.0, 1224.0, 50.0, 22.0 ]
+					"patching_rect" : [ 965.0, 1317.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -80,7 +92,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 907.75, 1203.0, 24.0, 24.0 ]
+					"patching_rect" : [ 908.75, 1296.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -91,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 907.75, 1259.0, 75.25, 22.0 ],
+					"patching_rect" : [ 908.75, 1352.0, 75.25, 22.0 ],
 					"text" : "metro"
 				}
 
@@ -104,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 1019.0, 530.0, 87.0 ],
+					"patching_rect" : [ 681.0, 1112.0, 530.0, 87.0 ],
 					"text" : "Bonus: Build a metronome that changes that changes tempo every beat using the drunk object."
 				}
 
@@ -747,7 +759,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 192.25, 1330.0, 104.0, 29.0 ],
+					"patching_rect" : [ 193.25, 1423.0, 104.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -770,7 +782,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.985981, 0.0, 0.028815, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 192.25, 1203.0, 87.5, 87.5 ]
+					"patching_rect" : [ 193.25, 1296.0, 87.5, 87.5 ]
 				}
 
 			}
@@ -783,7 +795,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 1019.0, 457.0, 141.0 ],
+					"patching_rect" : [ 64.0, 1112.0, 457.0, 141.0 ],
 					"text" : "Currently whenever the button below is clicked, the patch will make a \"blip\" sound. Figure out how to add a \"delay\" object so that the patch will automatically play a blip every 300ms. "
 				}
 
@@ -796,7 +808,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 970.0, 242.5, 137.0, 23.0 ],
+					"patching_rect" : [ 971.0, 335.5, 137.0, 23.0 ],
 					"text" : "print outputfromtoggle"
 				}
 
@@ -810,7 +822,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.75, 39.0, 636.0, 114.0 ],
+					"patching_rect" : [ 662.75, 132.0, 636.0, 114.0 ],
 					"text" : "Make it so that the note 73 is played when the toggle is turned on and note 70 is played when the toggle is turned off. Hint: Figure out what to connect between the toggle and the message boxes containing 70 and 73 below."
 				}
 
@@ -823,7 +835,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 851.0, 199.0, 44.0, 44.0 ]
+					"patching_rect" : [ 852.0, 292.0, 44.0, 44.0 ]
 				}
 
 			}
@@ -836,7 +848,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 292.5, 37.0, 35.0 ],
+					"patching_rect" : [ 931.0, 385.5, 37.0, 35.0 ],
 					"text" : "73"
 				}
 
@@ -849,7 +861,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.75, 226.5, 139.0, 23.0 ],
+					"patching_rect" : [ 156.75, 319.5, 139.0, 23.0 ],
 					"text" : "print outputfromkslider"
 				}
 
@@ -863,7 +875,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 851.0, 292.5, 52.0, 35.0 ],
+					"patching_rect" : [ 852.0, 385.5, 52.0, 35.0 ],
 					"text" : "70"
 				}
 
@@ -877,7 +889,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 851.0, 365.0, 118.0, 23.0 ],
+					"patching_rect" : [ 852.0, 458.0, 118.0, 23.0 ],
 					"text" : "makenote 127 200"
 				}
 
@@ -890,7 +902,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 851.0, 407.5, 216.0, 23.0 ],
+					"patching_rect" : [ 852.0, 500.5, 216.0, 23.0 ],
 					"text" : "noteout 1"
 				}
 
@@ -903,7 +915,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1122.75, 1441.5, 216.0, 20.0 ],
+					"patching_rect" : [ 1123.75, 1534.5, 216.0, 20.0 ],
 					"text" : "Updated 2014"
 				}
 
@@ -916,7 +928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1122.75, 1422.0, 216.0, 20.0 ],
+					"patching_rect" : [ 1123.75, 1515.0, 216.0, 20.0 ],
 					"text" : "Patch made by Edgar Berdahl, 2013"
 				}
 
@@ -931,7 +943,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 260.5, 50.0, 22.0 ]
+					"patching_rect" : [ 122.0, 353.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -944,7 +956,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.75, 39.0, 382.0, 87.0 ],
+					"patching_rect" : [ 52.75, 132.0, 382.0, 87.0 ],
 					"text" : "Change the following so that it plays two octaves (e.g. 24 half steps) higher than it currently plays"
 				}
 
@@ -958,7 +970,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 102.75, 333.0, 117.5, 23.0 ],
+					"patching_rect" : [ 103.75, 426.0, 117.5, 23.0 ],
 					"text" : "makenote 127 200"
 				}
 
@@ -971,7 +983,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 102.75, 167.0, 280.0, 45.0 ]
+					"patching_rect" : [ 103.75, 260.0, 280.0, 45.0 ]
 				}
 
 			}
@@ -983,7 +995,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.75, 375.5, 216.0, 23.0 ],
+					"patching_rect" : [ 103.75, 468.5, 216.0, 23.0 ],
 					"text" : "noteout 1"
 				}
 
@@ -996,7 +1008,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.5, 794.0, 46.0, 29.0 ],
+					"patching_rect" : [ 217.5, 887.0, 46.0, 29.0 ],
 					"text" : "print"
 				}
 
@@ -1009,7 +1021,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 216.5, 707.0, 39.0, 39.0 ]
+					"patching_rect" : [ 217.5, 800.0, 39.0, 39.0 ]
 				}
 
 			}
@@ -1024,7 +1036,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 862.75, 767.0, 60.0, 29.0 ]
+					"patching_rect" : [ 863.75, 860.0, 60.0, 29.0 ]
 				}
 
 			}
@@ -1037,7 +1049,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 588.0, 346.0, 87.0 ],
+					"patching_rect" : [ 64.0, 681.0, 346.0, 87.0 ],
 					"text" : "Make it so that either a 0 or a 1 is alternatively sent to print each time the button is clicked"
 				}
 
@@ -1051,7 +1063,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.75, 588.0, 462.0, 114.0 ],
+					"patching_rect" : [ 662.75, 681.0, 462.0, 114.0 ],
 					"text" : "Edit the patch so that the value 2.5 gets automatically loaded into the following floating-point number box when the patch is opened."
 				}
 
