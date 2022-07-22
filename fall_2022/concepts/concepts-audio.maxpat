@@ -715,7 +715,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 9319.5, 738.0, 51.0 ],
+					"patching_rect" : [ 27.5, 9202.357140064239502, 738.0, 51.0 ],
 					"text" : "Question: What is the poly~ object for?"
 				}
 
@@ -1352,22 +1352,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 9213.5, 738.0, 96.0 ],
+					"patching_rect" : [ 27.5, 9096.357140064239502, 738.0, 96.0 ],
 					"text" : "Question: What's the difference between abstractions and subpatches?"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 40.0,
-					"id" : "obj-207",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 9070.5, 802.0, 96.0 ],
-					"text" : "See 1007-patches.zip for time-based effects (e.g. using delays) and reverberation"
 				}
 
 			}

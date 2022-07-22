@@ -40,12 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontsize" : 36.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.0, 39.0, 430.0, 47.0 ],
+					"patching_rect" : [ 53.0, 39.0, 458.0, 47.0 ],
 					"text" : "Homework 1 - Basics"
 				}
 
@@ -68,7 +69,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 908.75, 1423.0, 24.0, 24.0 ]
+					"patching_rect" : [ 867.26063859462738, 1408.106383085250854, 24.0, 24.0 ]
 				}
 
 			}
@@ -80,7 +81,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 965.0, 1317.0, 50.0, 22.0 ]
+					"patching_rect" : [ 923.51063859462738, 1302.106383085250854, 50.0, 22.0 ]
 				}
 
 			}
@@ -92,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 908.75, 1296.0, 24.0, 24.0 ]
+					"patching_rect" : [ 867.26063859462738, 1281.106383085250854, 24.0, 24.0 ]
 				}
 
 			}
@@ -103,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 908.75, 1352.0, 75.25, 22.0 ],
+					"patching_rect" : [ 867.26063859462738, 1337.106383085250854, 75.25, 22.0 ],
 					"text" : "metro"
 				}
 
@@ -112,12 +113,12 @@
 				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-25",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 681.0, 1112.0, 530.0, 87.0 ],
-					"text" : "Bonus: Build a metronome that changes that changes tempo every beat using the drunk object."
+					"patching_rect" : [ 681.0, 1112.0, 530.0, 60.0 ],
+					"text" : "Build a metronome that changes that changes tempo every beat using the drunk object."
 				}
 
 			}

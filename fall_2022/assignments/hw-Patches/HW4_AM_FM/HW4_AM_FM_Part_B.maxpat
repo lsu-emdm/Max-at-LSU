@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1371.0, 706.0 ],
+		"rect" : [ 34.0, 87.0, 1371.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,21 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 36.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 26.0, 47.681817650794983, 453.0, 47.0 ],
+					"text" : "HW4 - AM/FM"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -45,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 771.0, 65.0, 20.0 ],
+					"patching_rect" : [ 340.0, 869.0, 65.0, 20.0 ],
 					"text" : "ON/OFF"
 				}
 
@@ -58,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 114.0, 266.0, 19.0 ],
+					"patching_rect" : [ 437.0, 212.0, 266.0, 19.0 ],
 					"text" : "Does it help to use vibrato to make vowels?"
 				}
 
@@ -71,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.0, 167.0, 102.0, 19.0 ],
+					"patching_rect" : [ 78.0, 265.0, 102.0, 19.0 ],
 					"text" : "Try wiggling me!"
 				}
 
@@ -84,7 +98,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 294.5, 759.0, 42.0, 42.0 ]
+					"patching_rect" : [ 298.5, 857.0, 42.0, 42.0 ]
 				}
 
 			}
@@ -97,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 217.5, 812.5, 35.0, 21.0 ],
+					"patching_rect" : [ 221.5, 910.5, 35.0, 21.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -111,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 251.5, 812.5, 35.0, 21.0 ],
+					"patching_rect" : [ 255.5, 910.5, 35.0, 21.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -124,7 +138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.5, 224.0, 177.0, 19.0 ],
+					"patching_rect" : [ 481.5, 322.0, 177.0, 19.0 ],
 					"text" : "(Shift-click to overwrite preset)"
 				}
 
@@ -137,7 +151,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.0, 168.0, 101.0, 27.0 ],
+					"patching_rect" : [ 527.0, 266.0, 101.0, 27.0 ],
 					"text" : "PRESETS"
 				}
 
@@ -151,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 14.0, 722.0, 60.0 ],
+					"patching_rect" : [ 26.0, 112.0, 722.0, 60.0 ],
 					"text" : "B. Fill out all 10 presets with some interesting sounds. Make the vowels a, e, i, o, and u in the presets 6, 7, 8, 9, 10 (bottom row)."
 				}
 
@@ -163,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 529.0, 192.0, 74.0, 32.0 ],
+					"patching_rect" : [ 533.0, 290.0, 74.0, 32.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 60, 5, "obj-59", "flonum", "float", 3.0, 5, "obj-62", "flonum", "float", 195.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 443.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
@@ -220,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 44.0, 316.0, 87.0, 20.0 ],
+					"patching_rect" : [ 48.0, 414.0, 87.0, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -234,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 22.0, 215.0, 36.0, 22.0 ],
+					"patching_rect" : [ 26.0, 313.0, 36.0, 22.0 ],
 					"text" : "line~"
 				}
 
@@ -251,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 716.0, 486.0, 71.0, 20.0 ],
+					"patching_rect" : [ 720.0, 584.0, 71.0, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -268,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 381.0, 486.0, 71.0, 20.0 ],
+					"patching_rect" : [ 385.0, 584.0, 71.0, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -282,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 193.0, 36.0, 20.0 ],
+					"patching_rect" : [ 26.0, 291.0, 36.0, 20.0 ],
 					"text" : "$1 20"
 				}
 
@@ -298,7 +312,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 167.0, 52.0, 20.0 ]
+					"patching_rect" : [ 26.0, 265.0, 52.0, 20.0 ]
 				}
 
 			}
@@ -314,7 +328,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 73.0, 436.0, 56.0, 20.0 ],
+					"patching_rect" : [ 77.0, 534.0, 56.0, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -327,7 +341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 250.0, 128.272705000000002, 19.0 ],
+					"patching_rect" : [ 165.0, 348.0, 128.272705000000002, 19.0 ],
 					"text" : "Vibrato Amplitude [Hz]"
 				}
 
@@ -343,7 +357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 250.0, 60.0, 20.0 ]
+					"patching_rect" : [ 107.0, 348.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -356,7 +370,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 89.0, 275.0, 32.5, 21.0 ],
+					"patching_rect" : [ 93.0, 373.0, 32.5, 21.0 ],
 					"text" : "*~"
 				}
 
@@ -369,7 +383,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 199.0, 142.272705000000002, 19.0 ],
+					"patching_rect" : [ 151.0, 297.0, 142.272705000000002, 19.0 ],
 					"text" : "Vibrato Frequency [Hz]"
 				}
 
@@ -385,7 +399,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 89.0, 199.0, 60.0, 20.0 ]
+					"patching_rect" : [ 93.0, 297.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -398,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 89.0, 224.0, 44.0, 21.0 ],
+					"patching_rect" : [ 93.0, 322.0, 44.0, 21.0 ],
 					"text" : "cycle~"
 				}
 
@@ -412,7 +426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 140.0, 34.0, 22.0 ],
+					"patching_rect" : [ 26.0, 238.0, 34.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -425,7 +439,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 80.0, 336.0, 53.0 ]
+					"patching_rect" : [ 26.0, 178.0, 336.0, 53.0 ]
 				}
 
 			}
@@ -437,7 +451,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.863647000000014, 850.5, 32.0, 20.0 ],
+					"patching_rect" : [ 506.863647000000014, 948.5, 32.0, 20.0 ],
 					"text" : "0Hz"
 				}
 
@@ -450,7 +464,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 780.25, 850.5, 59.0, 20.0 ],
+					"patching_rect" : [ 784.25, 948.5, 59.0, 20.0 ],
 					"text" : "22050Hz"
 				}
 
@@ -463,7 +477,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.5, 850.5, 97.0, 20.0 ],
+					"patching_rect" : [ 614.5, 948.5, 97.0, 20.0 ],
 					"text" : "Frequency [Hz]"
 				}
 
@@ -477,7 +491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.818175999999994, 777.0, 109.090912000000003, 47.0 ],
+					"patching_rect" : [ 442.818175999999994, 875.0, 109.090912000000003, 47.0 ],
 					"text" : "Amplitude / Magnitude / Volume"
 				}
 
@@ -491,7 +505,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 787.0, 598.0, 174.0, 32.0 ],
+					"patching_rect" : [ 791.0, 696.0, 174.0, 32.0 ],
 					"text" : "To change default amplitude of second FM component sound"
 				}
 
@@ -507,7 +521,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 722.0, 607.0, 65.0, 20.0 ]
+					"patching_rect" : [ 726.0, 705.0, 65.0, 20.0 ]
 				}
 
 			}
@@ -520,7 +534,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 700.0, 629.0, 41.0, 21.0 ],
+					"patching_rect" : [ 704.0, 727.0, 41.0, 21.0 ],
 					"text" : "*~ 0.1"
 				}
 
@@ -533,7 +547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 776.0, 436.0, 155.0, 19.0 ],
+					"patching_rect" : [ 780.0, 534.0, 155.0, 19.0 ],
 					"text" : "Carrier frequency 3 ratio"
 				}
 
@@ -549,7 +563,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 716.0, 436.0, 60.0, 20.0 ]
+					"patching_rect" : [ 720.0, 534.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -562,7 +576,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 700.0, 462.0, 35.0, 21.0 ],
+					"patching_rect" : [ 704.0, 560.0, 35.0, 21.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -575,7 +589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 741.0, 561.0, 90.0, 19.0 ],
+					"patching_rect" : [ 745.0, 659.0, 90.0, 19.0 ],
 					"text" : "carrier oscillator"
 				}
 
@@ -589,7 +603,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 700.0, 521.0, 52.0, 21.0 ],
+					"patching_rect" : [ 704.0, 619.0, 52.0, 21.0 ],
 					"text" : "+~"
 				}
 
@@ -603,7 +617,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 700.0, 561.0, 42.0, 21.0 ],
+					"patching_rect" : [ 704.0, 659.0, 42.0, 21.0 ],
 					"text" : "cycle~"
 				}
 
@@ -616,7 +630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 787.0, 486.0, 155.0, 19.0 ],
+					"patching_rect" : [ 791.0, 584.0, 155.0, 19.0 ],
 					"text" : "Carrier frequency 3 [Hz]"
 				}
 
@@ -630,7 +644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 602.0, 174.0, 32.0 ],
+					"patching_rect" : [ 456.0, 700.0, 174.0, 32.0 ],
 					"text" : "To change default amplitude of second FM component sound"
 				}
 
@@ -646,7 +660,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 387.0, 607.0, 65.0, 20.0 ]
+					"patching_rect" : [ 391.0, 705.0, 65.0, 20.0 ]
 				}
 
 			}
@@ -659,7 +673,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.0, 629.0, 41.0, 21.0 ],
+					"patching_rect" : [ 369.0, 727.0, 41.0, 21.0 ],
 					"text" : "*~ 0.2"
 				}
 
@@ -673,7 +687,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.0, 591.0, 160.0, 32.0 ],
+					"patching_rect" : [ 107.0, 689.0, 160.0, 32.0 ],
 					"text" : "To change default amplitude of first FM component sound"
 				}
 
@@ -689,7 +703,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 598.0, 65.0, 20.0 ]
+					"patching_rect" : [ 48.0, 696.0, 65.0, 20.0 ]
 				}
 
 			}
@@ -702,7 +716,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 620.0, 41.0, 21.0 ],
+					"patching_rect" : [ 26.0, 718.0, 41.0, 21.0 ],
 					"text" : "*~ 0.5"
 				}
 
@@ -718,7 +732,7 @@
 					"orientation" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.5, 743.0, 28.0, 58.0 ]
+					"patching_rect" : [ 255.5, 841.0, 28.0, 58.0 ]
 				}
 
 			}
@@ -730,7 +744,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 441.0, 436.0, 155.0, 19.0 ],
+					"patching_rect" : [ 445.0, 534.0, 155.0, 19.0 ],
 					"text" : "Carrier frequency 2 ratio"
 				}
 
@@ -746,7 +760,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, 436.0, 60.0, 20.0 ]
+					"patching_rect" : [ 385.0, 534.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -759,7 +773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.0, 462.0, 35.0, 21.0 ],
+					"patching_rect" : [ 369.0, 560.0, 35.0, 21.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -772,7 +786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 406.0, 561.0, 90.0, 19.0 ],
+					"patching_rect" : [ 410.0, 659.0, 90.0, 19.0 ],
 					"text" : "carrier oscillator"
 				}
 
@@ -786,7 +800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.0, 521.0, 52.0, 21.0 ],
+					"patching_rect" : [ 369.0, 619.0, 52.0, 21.0 ],
 					"text" : "+~"
 				}
 
@@ -800,7 +814,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.0, 561.0, 42.0, 21.0 ],
+					"patching_rect" : [ 369.0, 659.0, 42.0, 21.0 ],
 					"text" : "cycle~"
 				}
 
@@ -813,7 +827,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 486.0, 155.0, 19.0 ],
+					"patching_rect" : [ 456.0, 584.0, 155.0, 19.0 ],
 					"text" : "Carrier frequency 2 [Hz]"
 				}
 
@@ -826,7 +840,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 316.0, 225.0, 19.0 ],
+					"patching_rect" : [ 137.0, 414.0, 225.0, 19.0 ],
 					"text" : "Chief carrier frequency post-vibrato [Hz]"
 				}
 
@@ -842,7 +856,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 237.0, 407.0, 62.0, 20.0 ]
+					"patching_rect" : [ 241.0, 505.0, 62.0, 20.0 ]
 				}
 
 			}
@@ -857,7 +871,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 71.0, 380.0, 60.0, 20.0 ]
+					"patching_rect" : [ 75.0, 478.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -870,7 +884,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 286.0, 32.5, 22.0 ],
+					"patching_rect" : [ 26.0, 384.0, 32.5, 22.0 ],
 					"text" : "+~"
 				}
 
@@ -883,7 +897,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 486.0, 114.0, 19.0 ],
+					"patching_rect" : [ 126.0, 584.0, 114.0, 19.0 ],
 					"text" : "modulator amplitude"
 				}
 
@@ -896,7 +910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 436.0, 69.0, 19.0 ],
+					"patching_rect" : [ 132.0, 534.0, 69.0, 19.0 ],
 					"text" : "Modul. freq"
 				}
 
@@ -909,7 +923,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 560.0, 90.0, 19.0 ],
+					"patching_rect" : [ 67.0, 658.0, 90.0, 19.0 ],
 					"text" : "carrier oscillator"
 				}
 
@@ -922,7 +936,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 388.0, 96.0, 19.0 ],
+					"patching_rect" : [ 224.0, 486.0, 96.0, 19.0 ],
 					"text" : "Modulation index"
 				}
 
@@ -935,7 +949,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 361.0, 96.0, 19.0 ],
+					"patching_rect" : [ 75.0, 459.0, 96.0, 19.0 ],
 					"text" : "Harmonicity ratio"
 				}
 
@@ -949,7 +963,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 223.5, 448.0, 32.5, 21.0 ],
+					"patching_rect" : [ 227.5, 546.0, 32.5, 21.0 ],
 					"text" : "*~"
 				}
 
@@ -963,7 +977,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 527.0, 52.0, 21.0 ],
+					"patching_rect" : [ 26.0, 625.0, 52.0, 21.0 ],
 					"text" : "+~"
 				}
 
@@ -977,7 +991,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 55.0, 408.0, 35.0, 21.0 ],
+					"patching_rect" : [ 59.0, 506.0, 35.0, 21.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -991,7 +1005,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 55.0, 486.0, 68.0, 21.0 ],
+					"patching_rect" : [ 59.0, 584.0, 68.0, 21.0 ],
 					"text" : "*~"
 				}
 
@@ -1005,7 +1019,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 55.0, 461.0, 42.0, 21.0 ],
+					"patching_rect" : [ 59.0, 559.0, 42.0, 21.0 ],
 					"text" : "cycle~"
 				}
 
@@ -1019,7 +1033,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 560.0, 42.0, 21.0 ],
+					"patching_rect" : [ 26.0, 658.0, 42.0, 21.0 ],
 					"text" : "cycle~"
 				}
 
@@ -1031,7 +1045,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 509.0, 746.5, 300.0, 100.0 ]
+					"patching_rect" : [ 513.0, 844.5, 300.0, 100.0 ]
 				}
 
 			}
@@ -1044,7 +1058,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 756.0, 78.0, 32.0 ],
+					"patching_rect" : [ 155.0, 854.0, 78.0, 32.0 ],
 					"text" : "Volume L (adjust me)"
 				}
 
@@ -1060,7 +1074,7 @@
 					"orientation" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 217.5, 743.0, 28.0, 58.0 ]
+					"patching_rect" : [ 221.5, 841.0, 28.0, 58.0 ]
 				}
 
 			}
@@ -1070,7 +1084,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 847.5, 33.0, 33.0 ]
+					"patching_rect" : [ 230.0, 945.5, 33.0, 33.0 ]
 				}
 
 			}
@@ -1084,7 +1098,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 515.0, 244.0, 130.0 ],
+					"patching_rect" : [ 23.0, 613.0, 244.0, 130.0 ],
 					"proportion" : 0.39
 				}
 
@@ -1099,7 +1113,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 428.5, 272.0, 226.5 ],
+					"patching_rect" : [ 358.0, 526.5, 272.0, 226.5 ],
 					"proportion" : 0.39
 				}
 
@@ -1114,7 +1128,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.0, 428.5, 272.0, 226.5 ],
+					"patching_rect" : [ 693.0, 526.5, 272.0, 226.5 ],
 					"proportion" : 0.39
 				}
 
@@ -1129,7 +1143,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 193.0, 207.272705000000002, 106.5 ],
+					"patching_rect" : [ 86.0, 291.0, 207.272705000000002, 106.5 ],
 					"proportion" : 0.39
 				}
 
@@ -1276,7 +1290,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 31.5, 308.0, 374.0, 308.0, 374.0, 455.0, 374.5, 455.0 ],
+					"midpoints" : [ 35.5, 406.0, 378.0, 406.0, 378.0, 553.0, 378.5, 553.0 ],
 					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
@@ -1301,7 +1315,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 31.5, 308.0, 709.0, 308.0, 709.0, 455.0, 709.5, 455.0 ],
+					"midpoints" : [ 35.5, 406.0, 713.0, 406.0, 713.0, 553.0, 713.5, 553.0 ],
 					"order" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
@@ -1332,7 +1346,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 1 ],
-					"midpoints" : [ 233.0, 482.0, 113.5, 482.0 ],
+					"midpoints" : [ 237.0, 580.0, 117.5, 580.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1354,7 +1368,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 64.5, 430.0, 233.0, 430.0 ],
+					"midpoints" : [ 68.5, 528.0, 237.0, 528.0 ],
 					"order" : 0,
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1414,7 +1428,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 64.5, 512.0, 407.5, 512.0 ],
+					"midpoints" : [ 68.5, 610.0, 411.5, 610.0 ],
 					"order" : 1,
 					"source" : [ "obj-63", 0 ]
 				}
@@ -1423,7 +1437,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
-					"midpoints" : [ 64.5, 512.0, 742.5, 512.0 ],
+					"midpoints" : [ 68.5, 610.0, 746.5, 610.0 ],
 					"order" : 0,
 					"source" : [ "obj-63", 0 ]
 				}

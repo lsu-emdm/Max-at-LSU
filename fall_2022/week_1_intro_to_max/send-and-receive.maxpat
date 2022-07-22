@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 143.0, 87.0, 866.0, 449.0 ],
+		"rect" : [ 143.0, 87.0, 1001.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,46 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 836.0, 307.300049000000001, 150.0, 47.0 ],
+					"text" : "change arguments to send to multiple receive objects"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 164.5, 455.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 36.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.0, 28.0, 425.0, 47.0 ],
+					"text" : "Send and Receive"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 765.0, 146.0, 61.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 765.0, 299.0, 61.0, 22.0 ],
 					"text" : "send data"
 				}
 
@@ -58,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 644.0, 302.0, 50.0, 22.0 ],
+					"patching_rect" : [ 644.0, 455.0, 50.0, 22.0 ],
 					"text" : "79"
 				}
 
@@ -70,7 +103,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 255.0, 38.0, 22.0 ],
+					"patching_rect" : [ 675.0, 408.0, 38.0, 22.0 ],
 					"text" : "r bob"
 				}
 
@@ -82,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 765.0, 176.0, 60.0, 22.0 ],
+					"patching_rect" : [ 765.0, 329.0, 60.0, 22.0 ],
 					"text" : "send bob"
 				}
 
@@ -95,7 +128,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.0, 171.0, 50.0, 22.0 ]
+					"patching_rect" : [ 675.0, 324.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -105,7 +138,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 212.0, 77.0, 22.0 ],
+					"patching_rect" : [ 675.0, 365.0, 77.0, 22.0 ],
 					"text" : "forward data"
 				}
 
@@ -116,20 +149,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.0, 39.0, 150.0, 20.0 ],
+					"patching_rect" : [ 669.0, 125.0, 150.0, 20.0 ],
 					"text" : "Another way to send"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 437.0, 271.800049000000001, 150.0, 33.0 ],
-					"text" : "See also Tutorial 16: Remote Messaging"
 				}
 
 			}
@@ -142,7 +163,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.0, 64.0, 50.0, 22.0 ]
+					"patching_rect" : [ 675.0, 150.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -154,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 103.0, 75.0, 35.0 ],
+					"patching_rect" : [ 675.0, 189.0, 75.0, 35.0 ],
 					"text" : ";\rdata $1"
 				}
 
@@ -166,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 103.0, 146.0, 47.0 ],
+					"patching_rect" : [ 312.0, 157.0, 146.0, 47.0 ],
 					"text" : "Double Click Send/Receive to see the list of connected objects."
 				}
 
@@ -178,8 +199,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 193.0, 50.0, 22.0 ],
-					"text" : "52"
+					"patching_rect" : [ 548.0, 279.0, 50.0, 22.0 ],
+					"text" : "21."
 				}
 
 			}
@@ -190,7 +211,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.0, 146.0, 41.0, 22.0 ],
+					"patching_rect" : [ 579.0, 232.0, 41.0, 22.0 ],
 					"text" : "r data"
 				}
 
@@ -201,7 +222,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 221.300049000000001, 200.0, 134.0 ]
+					"patching_rect" : [ 87.0, 307.300049000000001, 200.0, 134.0 ]
 				}
 
 			}
@@ -212,8 +233,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 61.0, 62.0, 22.0 ],
-					"text" : "cycle~ 20"
+					"patching_rect" : [ 87.0, 147.0, 53.0, 22.0 ],
+					"text" : "cycle~ 2"
 				}
 
 			}
@@ -224,7 +245,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 167.300049000000001, 89.0, 22.0 ],
+					"patching_rect" : [ 87.0, 253.300049000000001, 89.0, 22.0 ],
 					"text" : "receive~ audio"
 				}
 
@@ -235,7 +256,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 108.0, 76.0, 22.0 ],
+					"patching_rect" : [ 87.0, 194.0, 76.0, 22.0 ],
 					"text" : "send~ audio"
 				}
 
@@ -249,7 +270,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 579.0, 49.0, 50.0, 22.0 ]
+					"patching_rect" : [ 579.0, 135.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -259,7 +280,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 92.0, 43.0, 22.0 ],
+					"patching_rect" : [ 579.0, 178.0, 43.0, 22.0 ],
 					"text" : "s data"
 				}
 
@@ -271,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 61.0, 38.0, 22.0 ],
+					"patching_rect" : [ 468.0, 147.0, 38.0, 22.0 ],
 					"text" : "Hello"
 				}
 
@@ -282,7 +303,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 92.0, 63.0, 22.0 ],
+					"patching_rect" : [ 468.0, 178.0, 63.0, 22.0 ],
 					"text" : "send data"
 				}
 
@@ -294,8 +315,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 437.0, 193.0, 50.0, 22.0 ],
-					"text" : "52"
+					"patching_rect" : [ 437.0, 279.0, 50.0, 22.0 ],
+					"text" : "21."
 				}
 
 			}
@@ -306,7 +327,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 146.0, 76.0, 22.0 ],
+					"patching_rect" : [ 468.0, 232.0, 76.0, 22.0 ],
 					"text" : "receive data"
 				}
 

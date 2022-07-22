@@ -621,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.0, 15.0, 286.0, 33.0 ],
-					"text" : "Max Datatypes"
+					"text" : "Max Data Types"
 				}
 
 			}
