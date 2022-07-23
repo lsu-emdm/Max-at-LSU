@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 188.0, 87.0, 642.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -34,8 +35,9 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "Jamoma_highlighted_orange",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -45,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 299.0, 253.0, 17.0 ],
-					"style" : "",
 					"text" : "by Edgar Berdahl, Nov. 2014"
 				}
 
@@ -59,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 288.0, 253.0, 17.0 ],
-					"style" : "",
 					"text" : "It helps to listen to this one with the volume up rather high."
 				}
 
@@ -74,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.0, 256.0, 341.0, 35.0 ],
-					"style" : "",
 					"text" : "loadmess open HatClosed.wav"
 				}
 
@@ -89,7 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 28.5, 477.0, 39.0, 35.0 ],
-					"style" : "",
 					"text" : "+~"
 				}
 
@@ -99,12 +97,12 @@
 					"id" : "obj-36",
 					"interpinlet" : 1,
 					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "int" ],
+					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.0, 359.0, 46.0, 79.0 ],
-					"style" : ""
+					"patching_rect" : [ 143.0, 359.0, 46.0, 79.0 ]
 				}
 
 			}
@@ -123,14 +121,13 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 84.070748, "ticks" ],
+						"originallength" : [ 84.070748299319717, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"style" : "",
 					"text" : "sfplay~"
 				}
 
@@ -145,7 +142,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.0, 256.0, 89.0, 35.0 ],
-					"style" : "",
 					"text" : "pipe 30"
 				}
 
@@ -160,7 +156,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.0, 216.0, 49.0, 35.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -173,8 +168,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 29.0, 127.0, 34.0, 34.0 ],
-					"style" : ""
+					"patching_rect" : [ 29.0, 127.0, 34.0, 34.0 ]
 				}
 
 			}
@@ -192,17 +186,16 @@
 					"patching_rect" : [ 142.0, 127.0, 101.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1000 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_longname" : "number[3]",
 							"parameter_shortname" : "number[2]",
-							"parameter_type" : 3,
-							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 1000 ],
-							"parameter_invisible" : 1
+							"parameter_type" : 3
 						}
 
 					}
 ,
-					"style" : "",
 					"varname" : "number[3]"
 				}
 
@@ -217,7 +210,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 29.0, 167.5, 132.0, 35.0 ],
-					"style" : "",
 					"text" : "metro 1000"
 				}
 
@@ -232,7 +224,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 216.0, 49.0, 35.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -243,8 +234,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 534.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 15.0, 534.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -263,14 +253,13 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 84.070748, "ticks" ],
+						"originallength" : [ 84.070748299319717, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"style" : "",
 					"text" : "sfplay~"
 				}
 
@@ -285,7 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 8.5, 341.0, 47.0 ],
-					"style" : "",
 					"text" : "Temporal masking"
 				}
 
@@ -301,7 +289,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 55.0, 488.0, 60.0 ],
-					"style" : "",
 					"text" : "One sound can prevent another sound from being heard if the first is sufficiently louder."
 				}
 
@@ -413,11 +400,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-30" : [ "number[3]", "number[2]", 0 ]
+			"obj-30" : [ "number[3]", "number[2]", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

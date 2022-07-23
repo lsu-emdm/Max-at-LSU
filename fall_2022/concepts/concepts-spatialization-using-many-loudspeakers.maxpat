@@ -2,31 +2,42 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
-			"architecture" : "x86"
+			"revision" : 5,
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 188.0, 87.0, 867.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "Jamoma_highlighted_orange",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"autofit" : 1,
@@ -35,8 +46,9 @@
 					"id" : "obj-2",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 436.799011, 3.900005, 426.0, 330.0 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 436.799011000000007, 3.900005, 426.0, 330.0 ]
 				}
 
 			}
@@ -48,8 +60,9 @@
 					"id" : "obj-9",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 462.383057, 369.199982, 297.0, 246.146133 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 462.383057000000008, 369.199981999999977, 297.0, 246.146132999999992 ]
 				}
 
 			}
@@ -57,12 +70,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.699999, 392.299988, 368.0, 33.0 ],
+					"patching_rect" : [ -1.699999, 392.299987999999985, 368.0, 33.0 ],
 					"text" : "For 4 to very many loudspeakers:"
 				}
 
@@ -71,12 +83,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
-					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.799997, 292.899963, 251.0, 33.0 ],
+					"patching_rect" : [ 14.799996999999999, 292.899963000000014, 251.0, 33.0 ],
 					"text" : "For four loudspeakers:"
 				}
 
@@ -85,12 +96,11 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.799997, 251.799988, 251.0, 33.0 ],
+					"patching_rect" : [ 14.799996999999999, 251.799988000000013, 251.0, 33.0 ],
 					"text" : "For two loudspeakers:"
 				}
 
@@ -100,13 +110,12 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.299999, 427.299988, 460.0, 141.0 ],
+					"patching_rect" : [ 54.299999, 427.299987999999985, 460.0, 141.0 ],
 					"text" : "\"VBAP\" objects available for Max\n                  or\nAmbisonics objects available for Max\n                  or\nWave Field Synthesis"
 				}
 
@@ -120,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 265.799988, 292.899963, 80.0, 33.0 ],
+					"patching_rect" : [ 265.799987999999985, 292.899963000000014, 80.0, 35.0 ],
 					"text" : "pan4S"
 				}
 
@@ -134,7 +143,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 265.799988, 251.799988, 117.0, 33.0 ],
+					"patching_rect" : [ 265.799987999999985, 251.799988000000013, 117.0, 35.0 ],
 					"text" : "pan2 100"
 				}
 
@@ -144,13 +153,12 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 36.0,
-					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.300001, 3.900005, 432.999023, 167.0 ],
+					"patching_rect" : [ 1.300001, 3.900005, 432.999023000000022, 167.0 ],
 					"text" : "Spatialization using arrays of independently controllable loudspeakers"
 				}
 
@@ -159,17 +167,28 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"bootpath" : "~/Desktop/Patches/Max/Externals/EMDM-Package-master/misc",
+				"patcherrelativepath" : "../../../../../Patches/Max/Externals/EMDM-Package-master/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan4S.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
