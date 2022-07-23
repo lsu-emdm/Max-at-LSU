@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1101.0, 593.0 ],
+		"rect" : [ 34.0, 87.0, 1101.0, 593.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,8 +35,9 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "Jamoma_highlighted_orange",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 0,
@@ -416,9 +417,9 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, -1.0, 0, 1261.467889908260759, 1.0, 0, 1261.467889908260759, -1.0, 0, 1261.467889908260759, -1.0, 0, 2316.51376146789562, 0.890625, 0, 2683.486238532110292, -0.578125, 0, 3325.688073394494495, 0.953125, 0, 3876.146788990830828, -0.796875, 0, 4380.733944954129583, 1.0, 0, 4472.477064220210195, -0.890625, 0, 4999.999530769237026, 1.0, 0, 5000.0, -1.0, 2 ],
+					"addpoints" : [ 0.0, -1.0, 0, 2600.0, 1.0, 0 ],
 					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"domain" : 5000.0,
+					"domain" : 2600.0,
 					"gridcolor" : [ 0.5, 0.5, 0.5, 0.5 ],
 					"id" : "obj-130",
 					"linecolor" : [ 0.333333, 0.333333, 0.333333, 1.0 ],
@@ -510,8 +511,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -544,6 +545,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1008,7 +1010,17 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

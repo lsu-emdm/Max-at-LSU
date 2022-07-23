@@ -35,7 +35,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "Jamoma_highlighted_orange",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -177,48 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 533.0, 290.0, 74.0, 32.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 60, 5, "obj-59", "flonum", "float", 3.0, 5, "obj-62", "flonum", "float", 195.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 443.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 2,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 178.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 8.0, 5, "obj-42", "flonum", "float", 1.0, 5, "obj-6", "flonum", "float", 48.0, 5, "obj-15", "flonum", "float", 4.0, 5, "obj-173", "kslider", "int", 60, 5, "obj-59", "flonum", "float", 235.0, 5, "obj-62", "flonum", "float", 734.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 721.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 3,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 216.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 16.0, 5, "obj-42", "flonum", "float", 0.980000019073486, 5, "obj-6", "flonum", "float", 320.0, 5, "obj-15", "flonum", "float", 0.606000006198883, 5, "obj-173", "kslider", "int", 81, 5, "obj-59", "flonum", "float", 55.0, 5, "obj-62", "flonum", "float", 768.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 880.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 4,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 216.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 16.0, 5, "obj-42", "flonum", "float", 0.980000019073486, 5, "obj-6", "flonum", "float", 320.0, 5, "obj-15", "flonum", "float", 0.606000006198883, 5, "obj-173", "kslider", "int", 48, 5, "obj-59", "flonum", "float", 10.0, 5, "obj-62", "flonum", "float", 0.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 130.812789916992188, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 5,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 216.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 16.0, 5, "obj-42", "flonum", "float", 2.630000114440918, 5, "obj-6", "flonum", "float", 320.0, 5, "obj-15", "flonum", "float", 0.950999975204468, 5, "obj-173", "kslider", "int", 83, 5, "obj-59", "flonum", "float", 1.0, 5, "obj-62", "flonum", "float", 4.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 968.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 6,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 72, 5, "obj-59", "flonum", "float", 1.0, 5, "obj-62", "flonum", "float", 2.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 523.25115966796875, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 7,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 69, 5, "obj-59", "flonum", "float", 2.0, 5, "obj-62", "flonum", "float", 2.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 440.0, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 8,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 71, 5, "obj-59", "flonum", "float", 3.0, 5, "obj-62", "flonum", "float", 2.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 493.88330078125, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 9,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 65, 5, "obj-59", "flonum", "float", 3.0, 5, "obj-62", "flonum", "float", 2.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 349.228240966796875, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
-, 						{
-							"number" : 10,
-							"data" : [ 6, "obj-75", "gain~", "list", 63, 10.0, 5, "obj-46", "flonum", "float", 0.0, 5, "obj-49", "flonum", "float", 77.0, 5, "obj-11", "flonum", "float", 0.0, 6, "obj-23", "gain~", "list", 63, 10.0, 5, "obj-8", "flonum", "float", 6.0, 5, "obj-42", "flonum", "float", 0.0, 5, "obj-6", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-173", "kslider", "int", 64, 5, "obj-59", "flonum", "float", 3.0, 5, "obj-62", "flonum", "float", 2.0, 6, "obj-64", "number~", "list", 0.0, 5.0, 5, "obj-65", "flonum", "float", 329.6275634765625, 6, "obj-68", "number~", "list", 0.0, 5.0, 6, "obj-69", "number~", "list", 0.0, 5.0, 6, "obj-72", "number~", "list", 0.0, 5.0, 5, "obj-88", "toggle", "int", 1 ]
-						}
- ]
+					"patching_rect" : [ 533.0, 290.0, 74.0, 32.0 ]
 				}
 
 			}
@@ -1555,7 +1514,17 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

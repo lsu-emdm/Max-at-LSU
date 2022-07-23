@@ -35,7 +35,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "Jamoma_highlighted_orange",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -251,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.363647000000014, 639.858397999999966, 150.0, 20.0 ],
+					"patching_rect" : [ 139.318176000000022, 638.858397999999966, 150.0, 20.0 ],
 					"text" : "0Hz"
 				}
 
@@ -264,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 441.545440999999983, 643.494750999999951, 150.0, 20.0 ],
+					"patching_rect" : [ 447.499969999999962, 642.494750999999951, 150.0, 20.0 ],
 					"text" : "4410Hz"
 				}
 
@@ -277,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.272736000000009, 639.858397999999966, 150.0, 20.0 ],
+					"patching_rect" : [ 245.227265000000017, 638.858397999999966, 150.0, 20.0 ],
 					"text" : "Frequency [Hz]"
 				}
 
@@ -291,7 +291,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.363617000000005, 566.358397999999966, 109.090912000000003, 47.0 ],
+					"patching_rect" : [ 89.318146000000013, 565.358397999999966, 109.090912000000003, 47.0 ],
 					"text" : "Amplitude / Magnitude / Volume"
 				}
 
@@ -304,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 539.858397999999966, 300.0, 100.0 ]
+					"patching_rect" : [ 162.954529000000008, 538.858397999999966, 300.0, 100.0 ]
 				}
 
 			}
@@ -370,7 +370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 120.5, 491.0, 47.0 ],
-					"text" : "The starter patch below is taken from the basic ring modulation patch. Modify it so that the output audio coming out of the *~ is being ring modulated again by a second modulation frequency that you will implement."
+					"text" : "The starter patch below is taken from the basic-ring-modulation.maxpat. Modify it so that the output audio coming out of the *~ is being ring modulated again by a second modulation frequency that you will implement."
 				}
 
 			}
@@ -483,7 +483,17 @@
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

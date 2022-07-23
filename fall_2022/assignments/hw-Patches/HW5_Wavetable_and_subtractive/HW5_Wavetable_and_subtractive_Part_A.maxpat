@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -35,19 +35,31 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "Jamoma_highlighted_orange",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 744.0, 27.0, 280.0, 20.0 ],
+					"text" : "Answer the following Questions:"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-78",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.0, 154.0, 374.0, 100.0 ],
-					"text" : "3) Set the bit depth to 4 and set the frequency to 700. Notice how \"image\" partials appear in the frequency response due to the bitcrushing of the sinusoid. Try adjusting the \"Frequency in Hz\" (left, in red) by bending it up slightly. As you do so, you will notice that some images move upward in pitch and others move downward. Can you hear that some are moving upward and others downward? Yes."
+					"patching_rect" : [ 744.0, 159.0, 374.0, 87.0 ],
+					"text" : "3) Set the bit depth to 4 and set the frequency to 700. Notice how \"image\" partials appear in the frequency response due to the bitcrushing of the sinusoid. Try adjusting the \"Frequency in Hz\" (left, in red) by bending it up slightly. As you do so, you will notice that some images move upward in pitch and others move downward. What is the name of this phenomenon?"
 				}
 
 			}
@@ -56,12 +68,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-75",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.0, 90.0, 361.0, 60.0 ],
-					"text" : "2) Try adjusting the bit depth throughout the range 1 to 12. Which bit depths cause more distortion of the sine wave and why? Lower bits create more distortion because more errors are being created by the quantization process."
+					"patching_rect" : [ 744.0, 105.0, 363.0, 33.0 ],
+					"text" : "2) Try adjusting the bit depth throughout the range 1 to 12. Which bit depths cause more distortion of the sine wave and why?"
 				}
 
 			}
@@ -195,8 +207,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.0, 63.0, 357.0, 20.0 ],
-					"text" : "1) How many bits does a CD use for storing audio? 16-bit"
+					"patching_rect" : [ 744.0, 65.0, 357.0, 20.0 ],
+					"text" : "1) How many bits does a CD use for storing audio?"
 				}
 
 			}
@@ -311,10 +323,10 @@
 					"patching_rect" : [ 168.0, 205.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number",
+							"parameter_initial" : [ 24 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 24 ],
+							"parameter_longname" : "number",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -483,11 +495,22 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "Jamoma_highlighted_orange",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
