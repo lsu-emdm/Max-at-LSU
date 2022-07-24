@@ -40,23 +40,59 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-37",
+					"id" : "obj-34",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 79.0, 176.0, 20.0 ],
-					"text" : "Draw your own waveforms!"
+					"patching_rect" : [ 236.0, 500.0, 150.0, 33.0 ],
+					"text" : "Set cycle~ frequency to 1 Hz to see you drawing!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 201.0, 358.5, 220.0, 136.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 220.0, 203.0, 101.0, 22.0 ],
+					"text" : "set myLittleBuffer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 79.0, 176.0, 33.0 ],
+					"text" : "Draw your own waveforms!\nAustin Franklin | 2022"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.5, 595.0, 380.0, 20.0 ],
-					"text" : "You might need to resize the buffer to 512 samples before drawing"
+					"patching_rect" : [ 594.5, 595.0, 332.0, 33.0 ],
+					"text" : "You might need to click 'set myLittleBuffer' message box beside cycle~ after drawing"
 				}
 
 			}
@@ -219,7 +255,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.5, 531.0, 45.0, 45.0 ]
+					"patching_rect" : [ 119.0, 531.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -536,6 +572,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -567,6 +612,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
