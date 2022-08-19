@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 706.0 ],
+		"rect" : [ 34.0, 100.0, 1372.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2794,7 +2794,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.227272152900696, 1627.409093499183655, 150.0, 20.0 ],
+					"patching_rect" : [ 312.227272152900696, 1665.409093499183655, 150.0, 20.0 ],
 					"text" : "Floating-point number box"
 				}
 
@@ -2812,7 +2812,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 262.227272152900696, 1627.409093499183655, 50.0, 22.0 ]
+					"patching_rect" : [ 262.227272152900696, 1665.409093499183655, 50.0, 22.0 ]
 				}
 
 			}
@@ -2839,7 +2839,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 245.227272152900696, 1588.409093499183655, 63.0, 22.0 ],
+					"patching_rect" : [ 245.227272152900696, 1626.409093499183655, 63.0, 22.0 ],
 					"text" : "cycle~ 40."
 				}
 

@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 63.0, 104.0, 838.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,29 +37,28 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "gain~",
+					"id" : "obj-4",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 255.0, 22.0, 140.0 ],
-					"style" : ""
+					"numoutlets" : 0,
+					"patching_rect" : [ 402.0, 218.0, 150.0, 20.0 ],
+					"text" : "< Look inside to see more!"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-11",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 277.0, 149.0, 150.0, 33.0 ],
-					"style" : "",
-					"text" : "Make it play a note from the synth every 250 ms."
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 302.0, 255.0, 22.0, 140.0 ]
 				}
 
 			}
@@ -69,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 63.0, 52.0, 20.0 ],
-					"style" : "",
 					"text" : "On/Off"
 				}
 
@@ -82,8 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 45.0, 56.0, 56.0 ],
-					"style" : ""
+					"patching_rect" : [ 302.0, 45.0, 56.0, 56.0 ]
 				}
 
 			}
@@ -93,8 +91,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 422.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 296.0, 422.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -108,13 +105,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 638.0, 258.0, 857.0, 671.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -142,7 +140,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -152,8 +150,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 157.0, 160.800003, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 157.0, 160.800003000000004, 50.0, 22.0 ]
 								}
 
 							}
@@ -164,8 +161,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 128.599991, 16.4, 216.0, 27.0 ],
-									"style" : "",
+									"patching_rect" : [ 128.599990999999989, 16.399999999999999, 216.0, 27.0 ],
 									"text" : "Synthesis!"
 								}
 
@@ -176,8 +172,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 453.399994, 252.599991, 150.0, 20.0 ],
-									"style" : "",
+									"patching_rect" : [ 453.399993999999992, 252.599990999999989, 150.0, 20.0 ],
 									"text" : "Add feedback"
 								}
 
@@ -188,8 +183,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 453.399994, 200.800003, 87.0, 20.0 ],
-									"style" : "",
+									"patching_rect" : [ 453.399993999999992, 200.800003000000004, 87.0, 20.0 ],
 									"text" : "Add a delay"
 								}
 
@@ -201,8 +195,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 302.399994, 213.0, 65.0, 22.0 ],
-									"style" : "",
+									"patching_rect" : [ 302.399993999999992, 213.0, 65.0, 22.0 ],
 									"text" : "cycle~ 40."
 								}
 
@@ -213,8 +206,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 453.399994, 152.199997, 133.600006, 20.0 ],
-									"style" : "",
+									"patching_rect" : [ 453.399993999999992, 152.199996999999996, 133.600006000000008, 20.0 ],
 									"text" : "incorporate AM or FM"
 								}
 
@@ -225,8 +217,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 453.399994, 312.0, 150.0, 20.0 ],
-									"style" : "",
+									"patching_rect" : [ 453.399993999999992, 312.0, 150.0, 20.0 ],
 									"text" : "Add an Envelope"
 								}
 
@@ -239,7 +230,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 157.0, 213.0, 72.0, 22.0 ],
-									"style" : "",
 									"text" : "cycle~ 200."
 								}
 
@@ -252,8 +242,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.0, 413.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 157.0, 413.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -266,8 +255,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.0, 65.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 157.0, 65.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -301,11 +289,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p Synthesizer"
 				}
 

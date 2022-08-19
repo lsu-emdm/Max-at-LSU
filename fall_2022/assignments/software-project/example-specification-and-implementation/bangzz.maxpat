@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 963.0, 777.0 ],
+		"rect" : [ 34.0, 100.0, 963.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,31 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 40.077669024467468, 76.0, 457.0, 74.0 ],
-					"text" : "Bangzz outputs an integer number of bangs separated by a specified delay time in miliseconds. This abstraction can be used as a substitute for a metro or counter object to trigger events, and by setting the delay time to 0 ms it can function as a uzi object. This can improve workflow in Max because the object can be used to perform a wide number of tasks."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 36.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 40.077669024467468, 27.0, 362.0, 47.0 ],
-					"text" : "bangzz"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"linecount" : 3,

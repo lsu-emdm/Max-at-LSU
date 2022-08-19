@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 258.0, 87.0, 817.0, 598.0 ],
+		"rect" : [ -1785.0, 20.0, 1130.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 274.0, 307.0, 97.0, 27.0 ],
+					"text" : "(Strings)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -412,8 +425,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 652.0, 320.0, 60.0, 22.0 ],
-					"text" : "1 2 3.7 hi"
+					"patching_rect" : [ 652.0, 320.0, 68.0, 22.0 ],
+					"text" : "1 2 3.5 7 hi"
 				}
 
 			}
@@ -467,7 +480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 289.0, 97.0, 27.0 ],
+					"patching_rect" : [ 274.0, 275.0, 97.0, 27.0 ],
 					"text" : "Message"
 				}
 
