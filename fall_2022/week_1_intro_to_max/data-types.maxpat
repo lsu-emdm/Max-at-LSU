@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1785.0, 20.0, 1130.0, 715.0 ],
+		"rect" : [ 34.0, 100.0, 1130.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 443.5, 105.0, 27.0 ],
+					"patching_rect" : [ 23.0, 331.5, 105.0, 27.0 ],
 					"text" : "Jitter Matrix"
 				}
 
@@ -73,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 494.5, 109.0, 22.0 ],
+					"patching_rect" : [ 85.0, 385.5, 109.0, 22.0 ],
 					"text" : "jitmatrix u7885628"
 				}
 
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 26.0, 518.5, 55.0, 22.0 ],
+					"patching_rect" : [ 68.0, 409.5, 55.0, 22.0 ],
 					"text" : "jit.matrix"
 				}
 
@@ -101,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 26.0, 469.5, 60.0, 22.0 ],
+					"patching_rect" : [ 68.0, 360.5, 60.0, 22.0 ],
 					"text" : "jit.qt.grab"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 229.0, 220.0, 27.0 ],
+					"patching_rect" : [ 23.0, 179.0, 220.0, 27.0 ],
 					"text" : "Audio Signal (for MSP)"
 				}
 
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 68.0, 300.0, 80.0, 13.0 ]
+					"patching_rect" : [ 68.0, 250.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 68.0, 258.0, 37.0, 22.0 ],
+					"patching_rect" : [ 68.0, 208.0, 37.0, 22.0 ],
 					"text" : "adc~"
 				}
 

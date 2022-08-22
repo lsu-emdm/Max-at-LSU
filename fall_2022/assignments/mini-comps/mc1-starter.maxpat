@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 63.0, 104.0, 838.0, 726.0 ],
+		"rect" : [ 93.0, 104.0, 838.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 540.000025749206543, 66.111112594604492, 150.0, 20.0 ],
+					"text" : "Your name here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 540.000025749206543, 31.111112594604492, 284.0, 33.0 ],
+					"text" : "MINI COMP 1 - MIDI"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.0, 111.0, 200.0, 20.0 ],
+					"patching_rect" : [ 464.777777671813965, 182.222223281860352, 200.0, 20.0 ],
 					"text" : "And clocker to keep time!"
 				}
 
@@ -55,8 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 205.0, 234.0, 20.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 182.777777671813965, 276.222223281860352, 234.0, 20.0 ],
 					"text" : "You can use metro to control things..."
 				}
 
@@ -69,7 +91,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 156.0, 50.0, 22.0 ]
+					"patching_rect" : [ 158.777777671813965, 227.222223281860352, 50.0, 22.0 ]
 				}
 
 			}
@@ -81,7 +103,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 119.0, 252.0, 24.0, 24.0 ]
+					"patching_rect" : [ 114.777777671813965, 323.222223281860352, 24.0, 24.0 ]
 				}
 
 			}
@@ -92,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 119.0, 203.0, 63.0, 22.0 ],
+					"patching_rect" : [ 114.777777671813965, 274.222223281860352, 63.0, 22.0 ],
 					"text" : "metro 500"
 				}
 
@@ -103,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 411.0, 188.0, 20.0 ],
+					"patching_rect" : [ 250.0, 460.0, 188.0, 20.0 ],
 					"text" : "Use MIDI to compose here!"
 				}
 
@@ -116,7 +138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 390.0, 156.0, 66.0, 22.0 ]
+					"patching_rect" : [ 385.777777671813965, 227.222223281860352, 66.0, 22.0 ]
 				}
 
 			}
@@ -127,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 390.0, 111.0, 77.0, 22.0 ],
+					"patching_rect" : [ 385.777777671813965, 182.222223281860352, 77.0, 22.0 ],
 					"text" : "clocker 1000"
 				}
 
@@ -138,7 +160,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 620.0, 103.0, 22.0 ],
+					"patching_rect" : [ 114.777777671813965, 736.777781009674072, 103.0, 22.0 ],
 					"text" : "noteout"
 				}
 
@@ -150,7 +172,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 119.0, 578.0, 61.0, 22.0 ],
+					"patching_rect" : [ 114.777777671813965, 694.777781009674072, 61.0, 22.0 ],
 					"text" : "makenote"
 				}
 
@@ -161,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 58.0, 212.0, 20.0 ],
+					"patching_rect" : [ 176.777777671813965, 129.222223281860352, 212.0, 20.0 ],
 					"text" : "Click this to start your composition!"
 				}
 
@@ -174,7 +196,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 119.0, 40.0, 56.0, 56.0 ]
+					"patching_rect" : [ 114.777777671813965, 111.222223281860352, 56.0, 56.0 ]
 				}
 
 			}
