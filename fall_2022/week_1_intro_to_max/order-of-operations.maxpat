@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 189.0, 799.0, 719.0 ],
+		"rect" : [ 829.0, 212.0, 799.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 562.0, 424.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -47,18 +59,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.0, 77.0, 425.0, 33.0 ],
 					"text" : "Understanding \"hot and cold\" inlets, invisible arguments, and order of operations"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 415.0, 50.0, 22.0 ],
-					"text" : "21"
 				}
 
 			}
@@ -427,7 +427,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
