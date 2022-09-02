@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 146.0, 87.0, 1252.0, 705.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -484,7 +484,7 @@
 ,
 					"showeditor" : 0,
 					"size" : 8,
-					"table_data" : [ 0, 0, 2, 4, 6, 8, 10, 12, 12 ],
+					"table_data" : [ 0, 0, 2, 4, 5, 7, 9, 11, 12 ],
 					"text" : "table pitch"
 				}
 
@@ -872,7 +872,7 @@
 ,
 					"showeditor" : 0,
 					"size" : 8,
-					"table_data" : [ 0, 0, 2, 4, 6, 8, 10, 12, 12 ],
+					"table_data" : [ 0, 0, 2, 4, 5, 7, 9, 11, 12 ],
 					"text" : "table pitch"
 				}
 

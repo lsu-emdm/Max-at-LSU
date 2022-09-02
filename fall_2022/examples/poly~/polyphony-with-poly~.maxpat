@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 211.0, 720.0, 600.0 ],
+		"rect" : [ 259.0, 314.0, 720.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 353.0, 159.0, 33.0 ],
+					"patching_rect" : [ 144.0, 353.0, 161.0, 33.0 ],
 					"text" : "Double-click to open up and see myRandomSine patch"
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 451.0, 192.0, 33.0 ],
+					"patching_rect" : [ 383.0, 368.0, 192.0, 33.0 ],
 					"text" : "Console printed list of which frequency is sent to which voice"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 398.0, 54.0, 22.0 ],
+					"patching_rect" : [ 344.0, 315.0, 54.0, 22.0 ],
 					"text" : "pack 0 0"
 				}
 
@@ -140,7 +140,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 451.0, 32.0, 22.0 ],
+					"patching_rect" : [ 344.0, 368.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
