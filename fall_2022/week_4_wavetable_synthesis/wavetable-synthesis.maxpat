@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 366.0, 188.0, 83.0, 22.0 ],
+					"text" : "apply hanning"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-111",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -549,8 +561,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 466.0, 425.0, 157.0, 23.0 ],
-					"text" : "buffer~ myLittleBuffer 100"
+					"patching_rect" : [ 466.0, 425.0, 132.0, 23.0 ],
+					"text" : "buffer~ myLittleBuffer"
 				}
 
 			}
