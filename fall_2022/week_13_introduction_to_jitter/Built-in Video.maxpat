@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 565.0, 788.0 ],
+		"rect" : [ 34.0, 100.0, 960.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,13 +48,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "vz.feedr.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.0, 84.0, 230.0, 130.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 91.0, 114.0, 230.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "feedr",
 					"viewvisibility" : 1
@@ -72,8 +73,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -186,12 +187,15 @@
 			}
 , 			{
 				"box" : 				{
+					"enable" : 1,
+					"fps" : 30.0,
 					"id" : "obj-17",
 					"maxclass" : "jit.pworld",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 287.0, 240.0, 157.0, 125.0 ]
+					"patching_rect" : [ 287.0, 240.0, 157.0, 125.0 ],
+					"sync" : 1
 				}
 
 			}
@@ -199,9 +203,8 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 591.0, 105.0, 22.0 ],
 					"text" : "jit.gl.syphonserver"
 				}
@@ -229,6 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 70.0, 446.0, 150.0, 22.0 ]
 				}
 
@@ -333,12 +337,13 @@
  ],
 		"parameters" : 		{
 			"obj-2::obj-1" : [ "range[4]", "range", 0 ],
-			"obj-2::obj-13" : [ "feedback", "feedback", 0 ],
+			"obj-2::obj-13" : [ "feedback", "Feedback", 0 ],
 			"obj-2::obj-26" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
 			"obj-2::obj-27" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
 			"obj-2::obj-32" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-2::obj-38" : [ "bleed", "bleed", 0 ],
-			"obj-2::obj-39" : [ "gain", "gain", 0 ],
+			"obj-2::obj-38" : [ "bleed", "Bleed", 0 ],
+			"obj-2::obj-39" : [ "gain", "Gain", 0 ],
+			"obj-2::obj-56::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
 			"obj-2::obj-7" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
 			"obj-2::obj-9" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
 			"parameterbanks" : 			{
@@ -346,9 +351,21 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-13" : 				{
+					"parameter_longname" : "feedback"
+				}
+,
 				"obj-2::obj-27" : 				{
 					"parameter_longname" : "pictctrl[1]",
 					"parameter_shortname" : "pictctrl[1]"
+				}
+,
+				"obj-2::obj-38" : 				{
+					"parameter_longname" : "bleed"
+				}
+,
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "gain"
 				}
 
 			}
@@ -357,21 +374,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "vz.feedr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"name" : "video-handler.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vizzie-datatexconvert.js",
+				"bootpath" : "C74:/packages/Vizzie/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -381,26 +398,22 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "video-handler.maxpat",
+				"name" : "vz.feedr.maxpat",
 				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "vzgl-routemat.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"name" : "vzgl-object.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "vzgl-disable.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"name" : "vzgl-outputdim.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

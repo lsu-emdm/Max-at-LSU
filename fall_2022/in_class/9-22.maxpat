@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 254.0, 442.0, 841.0, 562.0 ],
+		"rect" : [ 59.0, 119.0, 732.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,37 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 83.0, 503.0, 33.0 ],
-					"text" : "Note: do not copy this from another patch! You may use another patch or help file as a reference, but you must create the objects in this assignment yourself."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 48.0, 503.0, 33.0 ],
-					"text" : "Make a buffer capable of recording sound from your computer speakers or a microphone using the record~ and buffer~ objects. Then, use the groove~ object to play this sound back."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 24.0,
 					"id" : "obj-2",
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 13.0, 274.0, 33.0 ],
-					"text" : "Part A)"
+					"patching_rect" : [ 17.0, 31.0, 314.0, 100.0 ],
+					"text" : "Filter Order\ndB\nBiquad\nComb~\nMaybe scrubbing?\nBuild your own that combines: oscillator, 1 type of modulation synthesis AM, RM, FM, and 1 filter."
 				}
 
 			}

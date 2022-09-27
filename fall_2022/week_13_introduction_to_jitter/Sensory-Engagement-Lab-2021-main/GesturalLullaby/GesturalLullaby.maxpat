@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 93.0, 87.0, 1846.0, 894.0 ],
+		"rect" : [ 34.0, 100.0, 1660.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 526.027359008789062, 1902.739587664604187, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 426.027366280555725, 1908.21903932094574, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-119",
 					"maxclass" : "newobj",
@@ -540,6 +564,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-123",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "IO.maxpat",
 					"numinlets" : 2,
@@ -548,7 +573,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1830.5, 925.0, 149.0, 159.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1377.904748783813375, 1051.0, 155.0, 146.0 ],
+					"presentation_rect" : [ 1388.294359074340719, 1062.688311576843262, 155.0, 146.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -564,6 +589,7 @@
 					"hint" : "Copy this bpatcher into your patch for instant granularity.",
 					"id" : "obj-124",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rgranoTracker001.maxpat",
 					"numinlets" : 16,
@@ -572,7 +598,7 @@
 					"outlettype" : [ "signal", "signal", "int", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 1883.0, 623.0, 570.0, 292.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1377.904748783813375, 753.0, 422.666662216186523, 290.0 ],
+					"presentation_rect" : [ 1388.294359074340719, 764.688311576843262, 422.666662216186523, 290.0 ],
 					"varname" : "bpatcher-version[2]",
 					"viewvisibility" : 1
 				}
@@ -713,8 +739,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1014,6 +1040,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-146",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "IO.maxpat",
 					"numinlets" : 2,
@@ -1022,7 +1049,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1163.0, 400.499878000000024, 149.0, 159.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.904743419395459, 1050.833338856697083, 155.0, 146.0 ],
+					"presentation_rect" : [ 21.294353709922802, 1062.521650433540344, 155.0, 146.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1052,6 +1079,7 @@
 					"hint" : "Copy this bpatcher into your patch for instant granularity.",
 					"id" : "obj-149",
 					"lockeddragscroll" : 1,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rgranoTracker001.maxpat",
 					"numinlets" : 16,
@@ -1060,7 +1088,7 @@
 					"outlettype" : [ "signal", "signal", "int", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 1277.0, 125.0, 570.0, 292.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.904743419395459, 752.833338856697083, 433.333329200744629, 290.0 ],
+					"presentation_rect" : [ 21.294353709922802, 764.521650433540344, 433.333329200744629, 290.0 ],
 					"varname" : "bpatcher-version[1]",
 					"viewvisibility" : 1
 				}
@@ -1076,7 +1104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 840.5, 172.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.571411000000012, 711.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 65.961021290527356, 722.688311576843262, 50.0, 22.0 ]
 				}
 
 			}
@@ -1090,7 +1118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 725.571410999999898, 8.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.571411000000012, 709.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 161.961021290527356, 720.688311576843262, 50.0, 22.0 ]
 				}
 
 			}
@@ -1535,7 +1563,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 55.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.571411000000012, 689.0, 104.0, 20.0 ],
+					"presentation_rect" : [ 13.961021290527356, 700.688311576843262, 104.0, 20.0 ],
 					"text" : "Current position:",
 					"textcolor" : [ 0.031372549019608, 0.850980392156863, 0.247058823529412, 1.0 ]
 				}
@@ -1573,7 +1601,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 251.5, 1916.5, 66.714354999999998, 20.0 ],
-					"text" : "0.00 11.00"
+					"text" : "0.00 53.00"
 				}
 
 			}
@@ -1799,8 +1827,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2094,7 +2122,7 @@
 					"patching_rect" : [ 10.0, 111.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 797.999999999999886, 752.833338856697083, 100.0, 33.0 ],
+					"presentation_rect" : [ 808.38961029052723, 764.521650433540344, 100.0, 33.0 ],
 					"text" : "Click in image to track a colour:"
 				}
 
@@ -2121,8 +2149,9 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 321.5, 441.166687000000024, 140.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.571411000000012, 44.333333373069763, 1797.0, 707.333338379859924 ],
-					"srcrect" : [ 0, 0, 140, 105 ]
+					"presentation_rect" : [ 13.961021290527356, 49.528138518333435, 1797.0, 707.333338379859924 ],
+					"srcrect" : [ 0, 0, 140, 105 ],
+					"sync" : 1
 				}
 
 			}
@@ -2374,14 +2403,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 25.0, 69.0, 860.0, 499.0 ],
+						"rect" : [ 34.0, 100.0, 860.0, 499.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2418,7 +2447,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 695.0, 212.0, 94.0, 20.0 ],
+									"patching_rect" : [ 695.0, 212.0, 94.0, 22.0 ],
 									"text" : "prepend max_b"
 								}
 
@@ -2432,7 +2461,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 575.0, 212.0, 94.0, 20.0 ],
+									"patching_rect" : [ 575.0, 212.0, 94.0, 22.0 ],
 									"text" : "prepend max_g"
 								}
 
@@ -2446,7 +2475,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 455.0, 212.0, 91.0, 20.0 ],
+									"patching_rect" : [ 455.0, 212.0, 91.0, 22.0 ],
 									"text" : "prepend max_r"
 								}
 
@@ -2460,7 +2489,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "float" ],
-									"patching_rect" : [ 455.0, 155.0, 259.0, 20.0 ],
+									"patching_rect" : [ 455.0, 155.0, 259.0, 22.0 ],
 									"text" : "unpack f f f"
 								}
 
@@ -2487,7 +2516,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 275.0, 212.0, 91.0, 20.0 ],
+									"patching_rect" : [ 275.0, 212.0, 91.0, 22.0 ],
 									"text" : "prepend min_b"
 								}
 
@@ -2501,7 +2530,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.0, 212.0, 91.0, 20.0 ],
+									"patching_rect" : [ 155.0, 212.0, 91.0, 22.0 ],
 									"text" : "prepend min_g"
 								}
 
@@ -2515,7 +2544,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 212.0, 88.0, 20.0 ],
+									"patching_rect" : [ 35.0, 212.0, 88.0, 22.0 ],
 									"text" : "prepend min_r"
 								}
 
@@ -2529,7 +2558,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "float" ],
-									"patching_rect" : [ 35.0, 155.0, 259.0, 20.0 ],
+									"patching_rect" : [ 35.0, 155.0, 259.0, 22.0 ],
 									"text" : "unpack f f f"
 								}
 
@@ -2686,8 +2715,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3297,7 +3326,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 546.357177999999976, 1372.0, 38.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 898.0, 112.0, 20.0 ],
+					"presentation_rect" : [ 796.389610290527344, 909.688311576843262, 112.0, 20.0 ],
 					"text" : "Currently tracking:"
 				}
 
@@ -3318,7 +3347,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.167583807716635, 0.140132827324478, 0.136211258697027, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -3327,7 +3356,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 489.714232999999979, 1372.0, 51.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 902.214293999999995, 898.0, 25.0, 25.0 ],
+					"presentation_rect" : [ 912.603904290527339, 909.688311576843262, 25.0, 25.0 ],
 					"proportion" : 0.39
 				}
 
@@ -3335,7 +3364,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.721711527466606, 0.753084076486214, 0.753084076486214, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -3360,14 +3389,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 1212.0, 684.0 ],
+						"rect" : [ 34.0, 100.0, 1212.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4316,7 +4345,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 420.071411000000012, 634.0, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 928.5, 140.0, 20.0 ],
+					"presentation_rect" : [ 796.389610290527344, 940.188311576843262, 140.0, 20.0 ],
 					"text" : "Calibrate:"
 				}
 
@@ -4350,7 +4379,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 394.071411000000012, 634.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 952.5, 140.0, 20.0 ],
+					"presentation_rect" : [ 796.389610290527344, 964.188311576843262, 140.0, 20.0 ],
 					"size" : 1000.0
 				}
 
@@ -4363,7 +4392,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 370.0, 278.166687000000024, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.214294000000001, 3.0, 70.333359000000002, 20.0 ],
+					"presentation_rect" : [ 10.603904290527344, 14.688311576843262, 70.333359000000002, 20.0 ],
 					"text" : "Camera:"
 				}
 
@@ -4418,7 +4447,8 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 136.0, 486.0, 140.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 789.0, 140.0, 105.0 ]
+					"presentation_rect" : [ 796.389610290527344, 800.688311576843262, 140.0, 105.0 ],
+					"sync" : 1
 				}
 
 			}
@@ -4474,7 +4504,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 527.071411000000012, 278.166687000000024, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.5, 2.0, 145.0, 22.0 ]
+					"presentation_rect" : [ 80.889610290527344, 13.688311576843262, 145.0, 22.0 ]
 				}
 
 			}
@@ -5778,7 +5808,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"order" : 0,
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"order" : 0,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-87", 1 ],
+					"order" : 1,
 					"source" : [ "obj-91", 1 ]
 				}
 
@@ -5786,6 +5833,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
+					"order" : 1,
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -5877,51 +5925,51 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "sound_control_get_rid_of_leap.js",
-				"bootpath" : "~/Dropbox/GesturalLullaby",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rgranoTracker001.maxpat",
-				"bootpath" : "~/Dropbox/GesturalLullaby",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rgrain.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
+				"name" : "IO.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/utilities/input_output IO/lib",
+				"patcherrelativepath" : "../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/utilities/input_output IO/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rchoose.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
+				"patcherrelativepath" : "../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "transratio.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "IO.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/utilities/input_output IO/lib",
-				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/utilities/input_output IO/lib",
+				"name" : "rgrain.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
+				"patcherrelativepath" : "../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgrano.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
+				"patcherrelativepath" : "../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/sampling/granular/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rgranoTracker001.maxpat",
+				"bootpath" : "~/Desktop/LSU/Teaching/Max-at-LSU/fall_2022/week_13_introduction_to_jitter/Sensory-Engagement-Lab-2021-main/GesturalLullaby",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sound_control_get_rid_of_leap.js",
+				"bootpath" : "~/Desktop/LSU/Teaching/Max-at-LSU/fall_2022/week_13_introduction_to_jitter/Sensory-Engagement-Lab-2021-main/GesturalLullaby",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
