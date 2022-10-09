@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 198.0, 1852.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -606,13 +606,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 765.0, 133.0, 640.0, 480.0 ],
+						"rect" : [ 1117.0, 400.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -661,7 +661,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.293321971305772, 167.0, 91.5, 22.0 ],
-									"text" : "3.305916"
+									"text" : "2.8275"
 								}
 
 							}
@@ -1014,7 +1014,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1069,7 +1069,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.293321971305772, 167.0, 91.5, 22.0 ],
-									"text" : "3."
+									"text" : "8."
 								}
 
 							}
@@ -1791,7 +1791,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-394",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1852,7 +1851,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-225",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -2043,7 +2041,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2514,7 +2512,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2985,7 +2983,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3565,7 +3563,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4092,6 +4090,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-452",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4289,7 +4288,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5130,7 +5129,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5589,7 +5588,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6085,7 +6084,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6834,8 +6833,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 16.976940150612371, 0.16180989383888, 0, 150.0, 0.0, 0 ],
-					"domain" : 150.0,
+					"addpoints" : [ 0.0, 1.0, 0, 31.690288281143093, 0.16180989383888, 0, 280.0, 0.0, 0 ],
+					"domain" : 280.0,
 					"id" : "obj-373",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -6872,7 +6871,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7331,7 +7330,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7827,7 +7826,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8509,7 +8508,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.803911621848147, 0, 89.559771081233279, 0.563911621848147, 0, 191.832498353960546, 0.443911621848147, 0, 294.105225626687798, 0.403911621848147, 0, 441.832498353960546, 0.323911621848147, 0, 646.37795289941505, 0.163911621848147, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 487.367488404536516, 0.10120647696594, 0, 546.399365055260091, 0.776531145850217, 0, 679.221087519387993, 0.153154528418577, 0, 856.316717471558604, 1.0, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-320",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -8551,8 +8550,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.888830834449225, 0, 70.645685797225354, 0.424545120163511, 0, 162.691140342679887, 0.138830834449225, 0, 428.600231251770879, 0.0, 0, 714.963867615407253, 0.138830834449225, 0, 900.0, 0.0, 0 ],
-					"domain" : 900.0,
+					"addpoints" : [ 0.0, 0.050840388699121, 0, 939.397443305729894, 1.0, 0, 939.397443305729894, 0.0, 0 ],
+					"domain" : 1300.0,
 					"id" : "obj-323",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -8589,7 +8588,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8944,7 +8943,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8999,7 +8998,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.293321971305772, 167.0, 91.5, 22.0 ],
-									"text" : "0.6225"
+									"text" : "1.664753"
 								}
 
 							}
@@ -9637,7 +9636,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9924,7 +9923,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10211,7 +10210,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10764,7 +10763,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11868,7 +11867,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12422,7 +12421,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13130,7 +13129,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.776316082755125, 0, 293.435977216374624, 0.065205014029539, 0, 508.082429068913029, 0.420760548392332, 0, 697.476357174094005, 0.376316106596983, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.932375300208128, 0, 259.356866466698023, 0.205102579871213, 0, 525.000311394953997, 0.205102579871213, 0, 805.401725485890779, 0.984323351660764, 0, 1000.0, 0.308998682776487, 0 ],
 					"id" : "obj-73",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -13172,8 +13171,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 28.719797042112159, 0.061543049804689, 0, 279.999999999999773, 0.0, 0 ],
-					"domain" : 280.0,
+					"addpoints" : [ 0.0, 0.571747143601556, 0, 10.050346212303999, 0.0, 0 ],
+					"domain" : 60.0,
 					"id" : "obj-76",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -13344,7 +13343,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13842,7 +13841,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14494,6 +14493,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -14597,7 +14597,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.643911621848147, 0, 92.692215286774626, 0.923911621848147, 0, 149.510397104956439, 0.203911621848147, 0, 251.78312437768372, 0.123911621848147, 0, 490.419488014047374, 0.203911621848147, 0, 763.146760741320122, 0.323911621848147, 0, 1000.0, 0.603911621848147, 0 ],
+					"addpoints" : [ 21.971438371225688, 1.0, 0, 90.153256553043875, 0.269648168364561, 0, 306.062347462134767, 0.989648168364561, 0, 465.153256553043889, 0.069648168364561, 0, 681.062347462134767, 0.869648168364561, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-26",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -14639,7 +14639,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 8.246052908748572, 0.424545120163511, 0, 14.609689272384943, 0.924545120163511, 0, 30.518780181475819, 0.245973691592082, 0, 55.973325636021301, 0.138830834449225, 0, 139.999999999999801, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.469706324842182, 0, 2.897591800974366, 0.0, 0 ],
 					"domain" : 140.0,
 					"id" : "obj-18",
 					"maxclass" : "function",
