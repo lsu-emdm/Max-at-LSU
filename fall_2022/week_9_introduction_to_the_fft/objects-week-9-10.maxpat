@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 475.0, 342.0, 1015.0, 596.0 ],
+		"rect" : [ 730.0, 282.0, 1015.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.5, 472.0, 222.0, 33.0 ],
+					"patching_rect" : [ 413.5, 472.0, 225.0, 33.0 ],
 					"text" : "You can also use fft~ outside of the pfft~ patcher, although it's not as versatile."
 				}
 
@@ -219,11 +219,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.0, 332.0, 25.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
+					"patching_rect" : [ 318.0, 332.0, 25.0, 22.0 ],
 					"text" : "out"
 				}
 
@@ -236,10 +232,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.0, 332.0, 19.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in"
 				}
 
