@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 112.0, 224.0, 855.0, 670.0 ],
+		"rect" : [ 47.0, 102.0, 958.0, 844.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 458.0, 474.0, 27.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Explain the difference between signals and events in Max."
 				}
 
@@ -71,7 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 340.0, 474.0, 27.0 ],
-					"presentation_linecount" : 4,
 					"text" : "What are the data types in Max?"
 				}
 
