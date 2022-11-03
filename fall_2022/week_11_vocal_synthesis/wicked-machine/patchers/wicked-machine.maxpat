@@ -211,7 +211,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-110",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -497,7 +497,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.229858000000036, 728.0, 140.770111000000014, 23.0 ],
-					"text" : "midievent 224 0 74"
+					"text" : "midievent 224 0 61"
 				}
 
 			}
@@ -1006,7 +1006,7 @@
 				"box" : 				{
 					"comment" : "Signal Out L",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1525,7 +1525,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
